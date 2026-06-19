@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Minimal XML theme used only for the activity window before Compose content loads.
+        All visual theming is handled by PDCDartsTheme in Compose.
+        enableEdgeToEdge() in MainActivity controls status/nav bar rendering.
+    -->
+    <style name="Theme.PDCDarts" parent="android:Theme.Material.NoTitleBar">
+        <item name="android:windowBackground">#0E0E12</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+</resources>
